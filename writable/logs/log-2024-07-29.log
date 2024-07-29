@@ -1,0 +1,475 @@
+CRITICAL - 2024-07-29 11:24:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "arquivo_upload.php"
+[Method: GET, Route: upload]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('arquivo_upload.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('arquivo_upload', [], true)
+ 3 APPPATH\Controllers\ArquivoUpload.php(14): view('arquivo_upload')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ArquivoUpload->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArquivoUpload))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-29 11:24:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "arquivo_upload.php"
+[Method: GET, Route: upload]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('arquivo_upload.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('arquivo_upload', [], true)
+ 3 APPPATH\Controllers\ArquivoUpload.php(14): view('arquivo_upload')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ArquivoUpload->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArquivoUpload))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-29 11:25:33 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "arquivo_upload.php"
+[Method: GET, Route: upload]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('arquivo_upload.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('arquivo_upload', [], true)
+ 3 APPPATH\Controllers\ArquivoUpload.php(14): view('arquivo_upload')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ArquivoUpload->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArquivoUpload))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-29 11:25:33 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "arquivo_upload.php"
+[Method: GET, Route: upload]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('arquivo_upload.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('arquivo_upload', [], true)
+ 3 APPPATH\Controllers\ArquivoUpload.php(14): view('arquivo_upload')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ArquivoUpload->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArquivoUpload))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-29 12:40:56 --> Error: Call to undefined function form_open_multipart()
+[Method: GET, Route: uploadEnvio]
+in APPPATH\Views\enviar_arquivo.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('enviar_arquivo', [], true)
+ 4 APPPATH\Controllers\ArquivoUpload.php(15): view('enviar_arquivo')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ArquivoUpload->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArquivoUpload))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-29 12:40:56 --> Error: Call to undefined function form_open_multipart()
+[Method: GET, Route: uploadEnvio]
+in APPPATH\Views\enviar_arquivo.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('enviar_arquivo', [], true)
+ 4 APPPATH\Controllers\ArquivoUpload.php(15): view('enviar_arquivo')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ArquivoUpload->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArquivoUpload))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-29 12:41:21 --> Error: Call to undefined function form_open_multipart()
+[Method: GET, Route: uploadEnvio]
+in APPPATH\Views\enviar_arquivo.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('enviar_arquivo', [], true)
+ 4 APPPATH\Controllers\ArquivoUpload.php(15): view('enviar_arquivo')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ArquivoUpload->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArquivoUpload))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-29 12:41:22 --> Error: Call to undefined function form_open_multipart()
+[Method: GET, Route: uploadEnvio]
+in APPPATH\Views\enviar_arquivo.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('enviar_arquivo', [], true)
+ 4 APPPATH\Controllers\ArquivoUpload.php(15): view('enviar_arquivo')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ArquivoUpload->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArquivoUpload))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-29 12:43:49 --> Error: Call to undefined function form_open_multipart()
+[Method: GET, Route: uploadEnvio]
+in APPPATH\Views\enviar_arquivo.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('enviar_arquivo', [], true)
+ 4 APPPATH\Controllers\ArquivoUpload.php(15): view('enviar_arquivo')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ArquivoUpload->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArquivoUpload))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-29 12:43:49 --> Error: Call to undefined function form_open_multipart()
+[Method: GET, Route: uploadEnvio]
+in APPPATH\Views\enviar_arquivo.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('enviar_arquivo', [], true)
+ 4 APPPATH\Controllers\ArquivoUpload.php(15): view('enviar_arquivo')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ArquivoUpload->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArquivoUpload))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-29 12:44:32 --> Error: Call to undefined function form_open_multipart()
+[Method: GET, Route: uploadEnvio]
+in APPPATH\Views\enviar_arquivo.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('enviar_arquivo', [], true)
+ 4 APPPATH\Controllers\ArquivoUpload.php(15): view('enviar_arquivo')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ArquivoUpload->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArquivoUpload))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-29 12:44:33 --> Error: Call to undefined function form_open_multipart()
+[Method: GET, Route: uploadEnvio]
+in APPPATH\Views\enviar_arquivo.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('enviar_arquivo', [], true)
+ 4 APPPATH\Controllers\ArquivoUpload.php(15): view('enviar_arquivo')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ArquivoUpload->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArquivoUpload))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-29 12:46:26 --> ParseError: syntax error, unexpected token "class", expecting "]"
+[Method: GET, Route: uploadEnvio]
+in APPPATH\Views\enviar_arquivo.php on line 5.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('enviar_arquivo', [], true)
+ 3 APPPATH\Controllers\ArquivoUpload.php(21): view('enviar_arquivo')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ArquivoUpload->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArquivoUpload))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-29 12:46:30 --> ParseError: syntax error, unexpected token "class", expecting "]"
+[Method: GET, Route: uploadEnvio]
+in APPPATH\Views\enviar_arquivo.php on line 5.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('enviar_arquivo', [], true)
+ 3 APPPATH\Controllers\ArquivoUpload.php(21): view('enviar_arquivo')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ArquivoUpload->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArquivoUpload))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-29 12:46:30 --> ParseError: syntax error, unexpected token "class", expecting "]"
+[Method: GET, Route: uploadEnvio]
+in APPPATH\Views\enviar_arquivo.php on line 5.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('enviar_arquivo', [], true)
+ 3 APPPATH\Controllers\ArquivoUpload.php(21): view('enviar_arquivo')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ArquivoUpload->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArquivoUpload))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-29 12:46:41 --> ParseError: syntax error, unexpected token "class", expecting "]"
+[Method: GET, Route: uploadEnvio]
+in APPPATH\Views\enviar_arquivo.php on line 5.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('enviar_arquivo', [], true)
+ 3 APPPATH\Controllers\ArquivoUpload.php(21): view('enviar_arquivo')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ArquivoUpload->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArquivoUpload))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-29 12:46:41 --> ParseError: syntax error, unexpected token "class", expecting "]"
+[Method: GET, Route: uploadEnvio]
+in APPPATH\Views\enviar_arquivo.php on line 5.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('enviar_arquivo', [], true)
+ 3 APPPATH\Controllers\ArquivoUpload.php(21): view('enviar_arquivo')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ArquivoUpload->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArquivoUpload))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-29 12:49:25 --> ArgumentCountError: Too few arguments to function CodeIgniter\HTTP\IncomingRequest::getFile(), 0 passed in C:\xampp2\htdocs\access-files-codeigniter\app\Controllers\ArquivoUpload.php on line 28 and exactly 1 expected
+[Method: POST, Route: ArquivoUpload/upload]
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 875.
+ 1 APPPATH\Controllers\ArquivoUpload.php(28): CodeIgniter\HTTP\IncomingRequest->getFile()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ArquivoUpload->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArquivoUpload))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-29 13:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-29 13:14:13 --> ErrorException: Undefined variable $sucesso
+[Method: GET, Route: ArquivoUpload]
+in APPPATH\Views\listar_arquivos.php on line 6.
+ 1 APPPATH\Views\listar_arquivos.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sucesso', 'C:\\xampp2\\htdocs\\access-files-codeigniter\\app\\Views\\listar_arquivos.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp2\\htdocs\\access-files-codeigniter\\app\\Views\\listar_arquivos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('listar_arquivos', [], true)
+ 5 APPPATH\Controllers\ArquivoUpload.php(23): view('listar_arquivos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ArquivoUpload->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArquivoUpload))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-29 13:14:14 --> ErrorException: Undefined variable $sucesso
+[Method: GET, Route: ArquivoUpload]
+in APPPATH\Views\listar_arquivos.php on line 6.
+ 1 APPPATH\Views\listar_arquivos.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sucesso', 'C:\\xampp2\\htdocs\\access-files-codeigniter\\app\\Views\\listar_arquivos.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp2\\htdocs\\access-files-codeigniter\\app\\Views\\listar_arquivos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('listar_arquivos', [], true)
+ 5 APPPATH\Controllers\ArquivoUpload.php(23): view('listar_arquivos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ArquivoUpload->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArquivoUpload))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-29 13:16:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout.php"
+[Method: GET, Route: ArquivoUpload]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layout', [], true)
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('listar_arquivos', [], true)
+ 4 APPPATH\Controllers\ArquivoUpload.php(23): view('listar_arquivos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ArquivoUpload->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArquivoUpload))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-29 13:16:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout.php"
+[Method: GET, Route: ArquivoUpload]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layout', [], true)
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('listar_arquivos', [], true)
+ 4 APPPATH\Controllers\ArquivoUpload.php(23): view('listar_arquivos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ArquivoUpload->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArquivoUpload))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-29 13:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 13:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 14:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-29 14:51:12 --> ArgumentCountError: Too few arguments to function App\Controllers\ArquivoUpload::editar(), 0 passed in C:\xampp2\htdocs\upload-files-codeigniter\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: ArquivoUpload/editar]
+in APPPATH\Controllers\ArquivoUpload.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ArquivoUpload->editar()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArquivoUpload))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-29 14:51:13 --> ArgumentCountError: Too few arguments to function App\Controllers\ArquivoUpload::editar(), 0 passed in C:\xampp2\htdocs\upload-files-codeigniter\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: ArquivoUpload/editar]
+in APPPATH\Controllers\ArquivoUpload.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ArquivoUpload->editar()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArquivoUpload))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-29 14:56:31 --> ErrorException: Undefined array key "name"
+[Method: POST, Route: ArquivoUpload/editar]
+in APPPATH\Views\edidar_arquivo.php on line 10.
+ 1 APPPATH\Views\edidar_arquivo.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp2\\htdocs\\upload-files-codeigniter\\app\\Views\\edidar_arquivo.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp2\\htdocs\\upload-files-codeigniter\\app\\Views\\edidar_arquivo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('edidar_arquivo', [], true)
+ 5 APPPATH\Controllers\ArquivoUpload.php(59): view('edidar_arquivo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ArquivoUpload->editar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArquivoUpload))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-29 14:56:52 --> ErrorException: Undefined array key "name"
+[Method: POST, Route: ArquivoUpload/editar]
+in APPPATH\Views\edidar_arquivo.php on line 10.
+ 1 APPPATH\Views\edidar_arquivo.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp2\\htdocs\\upload-files-codeigniter\\app\\Views\\edidar_arquivo.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp2\\htdocs\\upload-files-codeigniter\\app\\Views\\edidar_arquivo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('edidar_arquivo', [], true)
+ 5 APPPATH\Controllers\ArquivoUpload.php(59): view('edidar_arquivo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ArquivoUpload->editar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArquivoUpload))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-29 14:59:40 --> ErrorException: Undefined array key "arquivo"
+[Method: POST, Route: ArquivoUpload/editar]
+in APPPATH\Views\edidar_arquivo.php on line 10.
+ 1 APPPATH\Views\edidar_arquivo.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "arquivo"', 'C:\\xampp2\\htdocs\\upload-files-codeigniter\\app\\Views\\edidar_arquivo.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp2\\htdocs\\upload-files-codeigniter\\app\\Views\\edidar_arquivo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('edidar_arquivo', [], true)
+ 5 APPPATH\Controllers\ArquivoUpload.php(60): view('edidar_arquivo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ArquivoUpload->editar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArquivoUpload))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-29 15:00:51 --> ErrorException: Undefined array key "name"
+[Method: POST, Route: ArquivoUpload/editar]
+in APPPATH\Views\edidar_arquivo.php on line 10.
+ 1 APPPATH\Views\edidar_arquivo.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp2\\htdocs\\upload-files-codeigniter\\app\\Views\\edidar_arquivo.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp2\\htdocs\\upload-files-codeigniter\\app\\Views\\edidar_arquivo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('edidar_arquivo', [], true)
+ 5 APPPATH\Controllers\ArquivoUpload.php(60): view('edidar_arquivo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ArquivoUpload->editar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArquivoUpload))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-29 15:02:08 --> ErrorException: Undefined variable $imagem
+[Method: POST, Route: ArquivoUpload/editar]
+in APPPATH\Views\edidar_arquivo.php on line 20.
+ 1 APPPATH\Views\edidar_arquivo.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imagem', 'C:\\xampp2\\htdocs\\upload-files-codeigniter\\app\\Views\\edidar_arquivo.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp2\\htdocs\\upload-files-codeigniter\\app\\Views\\edidar_arquivo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('edidar_arquivo', [], true)
+ 5 APPPATH\Controllers\ArquivoUpload.php(60): view('edidar_arquivo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ArquivoUpload->editar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArquivoUpload))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-29 15:03:57 --> ErrorException: Undefined variable $imagem
+[Method: POST, Route: ArquivoUpload/editar]
+in APPPATH\Views\edidar_arquivo.php on line 20.
+ 1 APPPATH\Views\edidar_arquivo.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imagem', 'C:\\xampp2\\htdocs\\upload-files-codeigniter\\app\\Views\\edidar_arquivo.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp2\\htdocs\\upload-files-codeigniter\\app\\Views\\edidar_arquivo.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('edidar_arquivo', [], true)
+ 5 APPPATH\Controllers\ArquivoUpload.php(60): view('edidar_arquivo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ArquivoUpload->editar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArquivoUpload))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-29 15:26:36 --> ErrorException: Undefined array key "image"
+[Method: POST, Route: ArquivoUpload/atualizar]
+in APPPATH\Controllers\ArquivoUpload.php on line 71.
+ 1 APPPATH\Controllers\ArquivoUpload.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'C:\\xampp2\\htdocs\\upload-files-codeigniter\\app\\Controllers\\ArquivoUpload.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ArquivoUpload->atualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArquivoUpload))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-29 15:29:19 --> ParseError: syntax error, unexpected token "public"
+[Method: POST, Route: ArquivoUpload/editar]
+in APPPATH\Controllers\ArquivoUpload.php on line 105.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp2\\htdocs\\upload-files-codeigniter\\app\\Controllers\\ArquivoUpload.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ArquivoUpload')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ArquivoUpload')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\ArquivoUpload', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-29 15:35:03 --> ErrorException: Undefined variable $C:\xampp2\tmp\php8A49.tmp
+[Method: POST, Route: ArquivoUpload/atualizar]
+in APPPATH\Controllers\ArquivoUpload.php on line 80.
+ 1 APPPATH\Controllers\ArquivoUpload.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $C:\\xampp2\\tmp\\php8A49.tmp', 'C:\\xampp2\\htdocs\\upload-files-codeigniter\\app\\Controllers\\ArquivoUpload.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ArquivoUpload->atualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArquivoUpload))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-29 15:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 15:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 15:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 15:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 15:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 15:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 15:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 15:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 15:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 15:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 15:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 15:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 15:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 15:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 15:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 15:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 15:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 15:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 15:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 15:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 15:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:05:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 16:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
