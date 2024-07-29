@@ -25,6 +25,8 @@ class Home extends BaseController
     
     // instanciando o arquivo
        $file = new \CodeIgniter\Files\File($path2);
+
+       // obtendo informações sobre o arquivo
        echo $file->getBasename();
        echo '<br>';
        echo $file->getRealPath();
@@ -35,7 +37,14 @@ class Home extends BaseController
        echo '<br>';
        echo $file->getExtension();
        echo '<br>';
+       echo $novoNome = $file->getRandomName();
+       echo '<br>';
+       echo $file->getSizeByUnit('mb');
+       echo '<br>';
        //dd($file);
+
+       // mover arquivo para outro diretório com nome criado aleatoriamente
+    //    $file->move(WRITEPATH.'uploads', $novoNome);
 
         
         return view('welcome_message');

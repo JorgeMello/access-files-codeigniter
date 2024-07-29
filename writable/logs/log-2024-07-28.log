@@ -136,3 +136,89 @@ in SYSTEMPATH\Files\File.php on line 115.
  7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-28 22:05:08 --> TypeError: App\Controllers\Home::index(): Return value must be of type string, none returned
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-28 22:05:08 --> RuntimeException: SplFileInfo::getSize(): stat failed for C:\xampp2\htdocs\access-files-codeigniter\public\file\hello.txt
+[Method: GET, Route: /]
+in SYSTEMPATH\Files\File.php on line 70.
+ 1 SYSTEMPATH\Files\File.php(70): SplFileInfo->getSize()
+ 2 APPPATH\Controllers\Home.php(32): CodeIgniter\Files\File->getSize()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-28 22:06:36 --> RuntimeException: SplFileInfo::getSize(): stat failed for C:\xampp2\htdocs\access-files-codeigniter\public\file\hello.txt
+[Method: GET, Route: /]
+in SYSTEMPATH\Files\File.php on line 70.
+ 1 SYSTEMPATH\Files\File.php(70): SplFileInfo->getSize()
+ 2 APPPATH\Controllers\Home.php(32): CodeIgniter\Files\File->getSize()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-28 22:06:36 --> RuntimeException: SplFileInfo::getSize(): stat failed for C:\xampp2\htdocs\access-files-codeigniter\public\file\hello.txt
+[Method: GET, Route: /]
+in SYSTEMPATH\Files\File.php on line 70.
+ 1 SYSTEMPATH\Files\File.php(70): SplFileInfo->getSize()
+ 2 APPPATH\Controllers\Home.php(32): CodeIgniter\Files\File->getSize()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-28 22:07:41 --> RuntimeException: SplFileInfo::getSize(): stat failed for C:\xampp2\htdocs\access-files-codeigniter\public\file\hello.txt
+[Method: GET, Route: /]
+in SYSTEMPATH\Files\File.php on line 70.
+ 1 SYSTEMPATH\Files\File.php(70): SplFileInfo->getSize()
+ 2 APPPATH\Controllers\Home.php(32): CodeIgniter\Files\File->getSize()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-28 22:07:41 --> RuntimeException: SplFileInfo::getSize(): stat failed for C:\xampp2\htdocs\access-files-codeigniter\public\file\hello.txt
+[Method: GET, Route: /]
+in SYSTEMPATH\Files\File.php on line 70.
+ 1 SYSTEMPATH\Files\File.php(70): SplFileInfo->getSize()
+ 2 APPPATH\Controllers\Home.php(32): CodeIgniter\Files\File->getSize()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-28 22:07:41 --> RuntimeException: SplFileInfo::getSize(): stat failed for C:\xampp2\htdocs\access-files-codeigniter\public\file\hello.txt
+[Method: GET, Route: /]
+in SYSTEMPATH\Files\File.php on line 70.
+ 1 SYSTEMPATH\Files\File.php(70): SplFileInfo->getSize()
+ 2 APPPATH\Controllers\Home.php(32): CodeIgniter\Files\File->getSize()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-28 22:07:42 --> RuntimeException: SplFileInfo::getSize(): stat failed for C:\xampp2\htdocs\access-files-codeigniter\public\file\hello.txt
+[Method: GET, Route: /]
+in SYSTEMPATH\Files\File.php on line 70.
+ 1 SYSTEMPATH\Files\File.php(70): SplFileInfo->getSize()
+ 2 APPPATH\Controllers\Home.php(32): CodeIgniter\Files\File->getSize()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
